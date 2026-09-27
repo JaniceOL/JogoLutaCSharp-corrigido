@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <RootNamespace>JogoLutaCSharp</RootNamespace>
+    <AssemblyName>JogoLuta</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Garante que todas as imagens da pasta Sprites (lutadores e cenario.png)
+         sejam copiadas para a pasta de saida (bin/...) toda vez que o projeto for compilado -->
+    <None Update="Sprites\*.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

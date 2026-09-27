@@ -1,0 +1,13 @@
+## Ficheiros de compilação do .NET / C#
+bin/
+obj/
+
+## Pastas do Visual Studio / VS Code
+.vs/
+.vscode/
+
+## Ficheiros de utilizador
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
